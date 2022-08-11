@@ -4,7 +4,7 @@ import { FaBeer } from 'react-icons/fa';
 import { BsChevronLeft,BsChevronRight } from 'react-icons/bs';
 import { Carousel } from "antd";
 const Slider = () => {
-
+   
       const settings = {
         dots: false,
         infinite: true,
@@ -27,12 +27,6 @@ const Slider = () => {
             src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/revslider/home-3/parallax-4-1.jpg"
             alt=""
           />
-          <div className="advertiment">
-            <span className="advertiment_text">PACKGES</span>
-            <span className="advertiment_text">SALE</span>
-            <span className="advertiment_text">- 50%</span>
-            <button className="showNow">SHOP NOW</button>
-          </div>
         </div>
         <div className="warpImage">
           <img 
