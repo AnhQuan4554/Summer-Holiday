@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Body from './Body/Body'
 import Header_top from './Header/Header_top'
 import Naviga from './Header/Naviga'
 import Slider from './Slider/Slider'
@@ -10,6 +11,7 @@ const Home = () => {
         <Header_top/>
         <Naviga/>
         <Slider/>
+        <Body/>
     </div>
   )
 }
