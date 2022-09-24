@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 export const S_container = styled.div`
     width: 100%;
-    padding: 0 150px;
     height: 100%;
 `
 export const S_headerTop  = styled.div`
